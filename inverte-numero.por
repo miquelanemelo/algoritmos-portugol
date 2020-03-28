@@ -7,10 +7,14 @@ programa InversaoDeNumeros
 
 	funcao inverteNumero(inteiro n ) {
 
-		inteiro i
+		inteiro aux
+		
+		aux = n
 
-		enquanto(n< 0){
-			
+		enquanto(n == 0){
+			escreva(aux);
+
+			n = n-1;
 		}
 	}
 
@@ -19,8 +23,6 @@ programa InversaoDeNumeros
 		escreva("Digite um numero: ")
 		leia(numero)
 		inverteNumero(numero);
-
-		inverteNumero(12)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +30,7 @@ programa InversaoDeNumeros
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 147; 
+ * @POSICAO-CURSOR = 148; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
